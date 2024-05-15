@@ -1,0 +1,13 @@
+totalpreguntas=int(input("ingrese la cantidad de preguntas:"))
+Cbuenas=int(input("ingrese la cantidad de pereguntas correctas:"))
+print(" ")
+porcentaje=(Cbuenas*100)/totalpreguntas
+print("obtuvo el siguiente nivel:")
+if porcentaje>=95:
+    print("NIVEL MAXIMO:",porcentaje,"%")
+if porcentaje>=70 and porcentaje<95:
+    print("NIVEL MEDIO:",porcentaje,"%")
+if porcentaje>=40 and porcentaje<70:
+    print("NIVEL REGULAR:",porcentaje,"%")
+if porcentaje<40:
+    print("FUERA DE NIVEL:",porcentaje,"%")

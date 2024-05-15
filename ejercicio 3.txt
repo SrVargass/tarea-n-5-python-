@@ -1,0 +1,14 @@
+a=float
+cont=0
+suma=0
+while a!=0:
+     a=float(input("Ingrese la altura:"))
+     if a>0:
+      cont=cont+1
+      suma=suma+a
+if cont>0:
+ promedio=suma/cont
+ print("el promedio de las alturas es:")
+ print(promedio)
+else:
+ print("no se ingreso altura alguna")

@@ -1,0 +1,26 @@
+cont=0 
+cont2=0 
+suma=0
+suma2=0 
+sueldo=int(input("ingrese el sueldo cobrado:"))
+while sueldo!=-1:  
+  if sueldo>=500000 and sueldo<=1500000:
+   if sueldo<=900000 and sueldo>=500000:
+    cont=cont+1
+    suma=suma+sueldo
+   else:
+     if sueldo>900000 and sueldo<1500000:
+      cont2=cont2+1
+      suma2=suma2+sueldo
+  else:
+   print("el sueldo ingresado debe ser mayor o igual a 500000 y menor o igual a 1500000")
+  sueldo=int(input("ingrese el sueldo cobrado:"))
+print(" ")
+if suma!=0 and suma2!=0:
+ print("el total de pesonas que recibe entre 500000 y 900000 es:",suma)
+ print("el total de personas que recibe mas de 900000:",suma2)
+ total=suma+suma2
+ print(" ")
+ print("el total que gasta la empresa al mes en empleadores es:",total)
+else:
+ print("no se ingresaron datos")
