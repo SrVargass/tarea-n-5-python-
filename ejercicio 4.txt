@@ -17,8 +17,8 @@ while sueldo!=-1:
   sueldo=int(input("ingrese el sueldo cobrado:"))
 print(" ")
 if suma!=0 and suma2!=0:
- print("el total de pesonas que recibe entre 500000 y 900000 es:",suma)
- print("el total de personas que recibe mas de 900000:",suma2)
+ print("el total de pesonas que recibe entre 500000 y 900000 es:",cont)
+ print("el total de personas que recibe mas de 900000:",cont2)
  total=suma+suma2
  print(" ")
  print("el total que gasta la empresa al mes en empleadores es:",total)
